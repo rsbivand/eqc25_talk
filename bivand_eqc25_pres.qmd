@@ -1,0 +1,57 @@
+---
+title: "Categorical independent variables and spatial regression: interpretation and reporting"
+date: 2025-09-12
+author:
+    - name: Roger Bivand
+      orcid: 0000-0003-2392-6140
+      email: Roger.Bivand@nhh.no
+      url: www.nhh.no/en/employees/faculty/roger-bivand/
+      affiliations:
+      - name: Norwegian School of Economics
+        city: Bergen
+        country: Norway
+institute: Norwegian School of Economics, Bergen, Norway
+format: 
+  beamer:
+    aspectratio: 169
+    theme: metropolis
+    highlight-style: pygments
+    monofont: 'Source Code Pro'
+    monofontoptions: 
+      - Scale=0.65
+    pdf-engine: xelatex
+    section-titles: true
+    slide-level: 2
+bibliography: [book.bib, packages.bib]
+---
+
+# Introduction
+
+## Introduction 
+
+- While researchers have addressed some of the challenges raised by limited dependent variables in spatial regression, the interpretation of independent categorical variables has not been given much attention. 
+
+- This question appears when the spatial lag of an independent variable is included, as would typically be the case in what are known as Durbin models. 
+
+- The spatial lag is usually taken as the mean of the values of the variable at neighbouring observations for row-standardised spatial weights, or the sum for binary spatial weights, neither of which permit intuitive interpretation for categorical variables. 
+
+- Slides and source at: [https://rsbivand.github.io/eqc25_talk](https://rsbivand.github.io/eqc25_talk)
+
+
+# ? {#sec-}
+
+```{r pkg-bibs, include=FALSE}
+# generate a BibTeX database automatically for some R packages
+knitr::write_bib(c('sf', 'spdep', 'spatialreg'), 'packages.bib')
+```
+
+# Preliminary conclusions
+
+## Preliminary conclusions
+
+- If 
+
+# Aftermatter
+
+## References {.allowframebreaks}
+
